@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Loja de jogos em mídias físicas e digitais">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header id="inicio">
+<header>
+    <div class="header-container">
+
+        <div class="logo">
+            <img src="img/logo2.jpg">
+            <h1>Auto Peças <span>Turbo</span></h1>
+        </div>
+
+        <form class="busca-box">
+            <input type="text" placeholder="Pesquisar peças...">
+            <button type="submit">Buscar</button>
+        </form>
+
+    </div>
+
+    <!-- Menu -->
+    <nav class="menu">
+        <div class="menu-container">
+            <a href="inicio">Inicio</a>
+            <a href="produtos">Produtos</a>
+            <a href="categorias">Categorias</a>
+            <a href="sobre">Sobre nós</a>
+            <a href="contato">contato</a>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-conteudo">
+            <p class="banner-destaque">OFERTAS ESPECIAIS</p>
+
+            <h2>As melhores peças para o seu veículo</h2>
+
+            <p>
+                Segurança, qualidade e preço justo para cuidar do seu carro.
+            </p>
+
+            #produtos
+                Ver produtos
+            </a>
+        </div>
+    </section>
+
+    <!-- Filtro por veículo -->
+    <section class="filtro-veiculo">
+        <div class="filtro-container">
+
+            <h3>Encontre peças compatíveis com seu veículo</h3>
+
+            <form class="select-group">
+
+                <select aria-label="Selecione a marca">
+                    <option value="">Selecione a marca</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="ford">Ford</option>
+                    <option value="honda">Honda</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="volkswagen">Volkswagen</option>
+                </select>
+
+                <select aria-label="Selecione o modelo">
+                    <option value="">Selecione o modelo</option>
+                    <option value="celta">Celta</option>
+                    <option value="civic">Civic</option>
+                    <option value="corolla">Corolla</option>
+                    <option value="gol">Gol</option>
+                    <option value="onix">Onix</option>
+                    <option value="palio">Palio</option>
+                </select>
+
+                <select aria-label="Selecione o ano">
+                    <option value="">Selecione o ano</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                </select>
+
+                <button type="submit" class="btn-filtrar">
+                    Buscar peças
+                </button>
+
+            </form>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- Categorias -->
+        <section class="categorias" id="categorias">
+
+            <h2 class="titulo-secao">Categorias</h2>
+
+            <div class="categorias-grid">
+
+                    <img src="img/freios.jpeg">
+                    <span class="categoria-icone">01</span>
+                    <h3>Freios</h3>
+                    <p>Pastilhas, discos e fluidos</p>
+                </a>
+
+                #produtos
+                    <span class="categoria-icone">02</span>
+                    <h3>Motor</h3>
+                    <p>Óleos, filtros e correias</p>
+                </a>
+
+                #produtos
+                    <span class="categoria-icone">03</span>
+                    <h3>Elétrica</h3>
+                    <p>Baterias, lâmpadas e fusíveis</p>
+                </a>
+
+                #produtos
+                    <span class="categoria-icone">04</span>
+                    <h3>Suspensão</h3>
+                    <p>Amortecedores e molas</p>
+                </a>
+
+            </div>
+        </section>
+
+      <!-- Produtos -->
+<section class="produtos" id="produtos">
+
+    <h2 class="titulo-secao">Produtos em destaque</h2>
+
+    <div class="produtos-grid">
+
+        <!-- Produto 1 -->
+        <article class="card-produto">
+
+            <div class="desconto">10% OFF</div>
+
+            <img src="img/freios.jpeg">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: PF-001</span>
+
+                <h3 class="nome-produto">
+                    Pastilha de Freio Dianteira
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com Chevrolet Onix
+                </span>
+
+                <p class="preco-antigo">R$ 109,90</p>
+                <p class="preco">R$ 89,90</p>
+                <p class="parcelamento">ou 3x de R$ 29,97</p>
+
+                <a href="comprar.html" class="btn-comprar">
+Comprar agora
+</a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 2 -->
+        <article class="card-produto">
+
+            <div class="desconto">10% OFF</div>
+
+            <img src="img/motor.jpeg">
+
+            <div class="info-produto">
+
+                <span class="sku">Código: OM-002</span>
+
+                <h3 class="nome-produto">
+                    Óleo para Motor 5W30
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com vários veículos
+                </span>
+
+                <p class="preco-antigo">R$ 54,90</p>
+                <p class="preco">R$ 44,90</p>
+                <p class="parcelamento">ou 2x de R$ 22,45</p>
+
+                <a href="comprar2.html" class="btn-comprar">
+Comprar agora
+</a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 3 -->
+        <article class="card-produto">
+
+            <div class="desconto">15% OFF</div>
+
+            img/bateria.jpg
+
+            <div class="info-produto">
+
+                <span class="sku">Código: BA-003</span>
+
+                <h3 class="nome-produto">
+                    Bateria Automotiva 60Ah
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com diversos modelos
+                </span>
+
+                <p class="preco-antigo">R$ 449,90</p>
+                <p class="preco">R$ 379,90</p>
+                <p class="parcelamento">ou 10x de R$ 37,99</p>
+
+                comprar.html?produto=bateria
+                    Comprar agora
+                </a>
+
+            </div>
+
+        </article>
+
+        <!-- Produto 4 -->
+        <article class="card-produto">
+
+            <div class="desconto">14% OFF</div>
+
+            img/amortecedor.jpg
+
+            <div class="info-produto">
+
+                <span class="sku">Código: AM-004</span>
+
+                <h3 class="nome-produto">
+                    Amortecedor Dianteiro
+                </h3>
+
+                <span class="compatibilidade">
+                    Compatível com Volkswagen Gol
+                </span>
+
+                <p class="preco-antigo">R$ 289,90</p>
+                <p class="preco">R$ 249,90</p>
+                <p class="parcelamento">ou 8x de R$ 31,24</p>
+
+                comprar.html?produto=amortecedor
+                    Comprar agora
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+        <!-- Sobre nós -->
+        <section class="sobre" id="sobre">
+            <div class="sobre-conteudo">
+
+                <div>
+                    <p class="subtitulo">QUEM SOMOS</p>
+
+                    <h2>Auto Peças Turbo</h2>
+
+                    <p>
+                        Trabalhamos com peças e acessórios automotivos de
+                        qualidade para oferecer segurança, economia e
+                        confiança aos nossos clientes.
+                    </p>
+
+                    <p>
+                        Nossa missão é facilitar a compra de autopeças,
+                        ajudando você a encontrar produtos compatíveis
+                        com seu veículo.
+                    </p>
+                </div>
+
+                <div class="vantagens">
+                    <div>
+                        <strong>Compra segura</strong>
+                        <p>Proteção para seus dados.</p>
+                    </div>
+
+                    <div>
+                        <strong>Entrega rápida</strong>
+                        <p>Envio para todo o Brasil.</p>
+                    </div>
+
+                    <div>
+                        <strong>Peças de qualidade</strong>
+                        <p>Produtos selecionados.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    
+    <section class="localizacao" id="localizacao">
+
+<div class="localizacao-container">
+
+    <div class="localizacao-texto">
+
+        <p class="subtitulo">ONDE ESTAMOS</p>
+
+        <h2>Visite a Auto Peças Turbo</h2>
+
+        <p>
+            Nossa loja está localizada em Osasco, São Paulo,
+            em uma região de fácil acesso para nossos clientes.
+        </p>
+
+        <p>
+            <strong>Endereço:</strong><br>
+            Av. dos Autonomistas, Osasco - SP
+        </p>
+
+        <p>
+            <strong>Horário:</strong><br>
+            Segunda a sábado, das 8h às 18h
+        </p>
+
+        <a href="https://www.google.com/maps/search/?api=1&query=Osasco+SP"
+           target="_blank"
+           class="btn-localizacao">
+            Ver no Google Maps
+        </a>
+
+    </div>
+
+    <div class="mapa">
+
+        <iframe
+            src="https://www.google.com/maps?q=Osasco%20SP&output=embed"
+            width="100%"
+            height="300"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+</div>
+
+<section class="atendimento">
+
+    <div class="atendimento-container">
+
+        <div>
+            <h2>Precisa de ajuda?</h2>
+            <p>
+                Nossa equipe está disponível para ajudar você
+                a encontrar a peça certa para o seu veículo.
+            </p>
+        </div>
+
+        <a href="#contato" class="btn-atendimento">
+            Falar com atendimento
+        </a>
+
+<div class="loja-online">
+   	 <span>●</span>
+    Loja online disponível 24 horas
+
+
+</div>
+
+    </div>
+
+</section>
+
+        <div class="footer-final">
+            <p>
+                © 2026 Auto Peças Turbo. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
